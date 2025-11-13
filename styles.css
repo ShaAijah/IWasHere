@@ -62,6 +62,22 @@ header .title {
   gap: 1.5rem;
   padding: 1rem;
 }
+.delete-btn {
+  background: linear-gradient(180deg, #ff7acb 0%, #ff0055 100%);
+  border: 2px solid #fff;
+  border-radius: 10px;
+  color: #fff;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 9px;
+  padding: 6px 10px;
+  cursor: pointer;
+  box-shadow: 0 0 10px #ff69b4, inset 0 0 5px #fff;
+  transition: all 0.2s ease;
+}
+.delete-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 15px #ff0055, 0 0 25px #fff inset;
+}
 
 /* CHARACTER SELECTOR */
 .avatar-wrap {
