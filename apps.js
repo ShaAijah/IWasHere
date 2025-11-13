@@ -371,7 +371,6 @@ const galleryImages = document.querySelectorAll('.gallery-item img');
 const mediaModal = document.getElementById('mediaModal');
 const mediaContent = document.getElementById('mediaContent');
 const mediaDesc = document.getElementById('mediaDesc');
-const mediaSource = document.getElementById('mediaSource');
 const closeMediaModal = document.getElementById('closeMediaModal');
 
 galleryImages.forEach(img => {
@@ -384,7 +383,6 @@ galleryImages.forEach(img => {
       </div>
     `;
     mediaDesc.textContent = img.alt || 'Untitled image';
-    mediaSource.href = img.src;
     mediaModal.classList.add('open');
   });
 });
